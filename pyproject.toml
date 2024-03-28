@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "Chatbot using GPT's API and Streamlit"
+authors = ["Aline Silveira <aline@outlook.ie>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
